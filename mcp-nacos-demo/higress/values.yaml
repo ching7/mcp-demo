@@ -1,0 +1,6 @@
+helm install higress -n higress-system higress.io/higress \
+  --create-namespace \
+  --render-subchart-notes \
+  --set global.local=true \
+  --set global.o11y.enabled=false
+  

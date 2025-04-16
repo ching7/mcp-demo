@@ -1,0 +1,1 @@
+docker run --name higress-redis -d redis

@@ -1,0 +1,11 @@
+server:
+  port: 8090
+spring:
+  application:
+    name: mcp-server
+  ai:
+    mcp:
+      server:
+        name: webflux-mcp-server # MCP服务器名称
+        type: ASYNC  # Recommended for reactive applications
+        sse-message-endpoint: /mcp/messages
