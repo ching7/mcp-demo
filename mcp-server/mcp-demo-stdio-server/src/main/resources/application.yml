@@ -1,0 +1,11 @@
+server:
+  port: 8091
+spring:
+  application:
+    name: mcp-server
+  ai:
+    mcp:
+      server:
+        stdio: true # 启用stdio模式
+        name: mcp-server # 服务器名称
+        version: 0.0.1 # 服务器版本
